@@ -1,5 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+
 .non-home-nav {
-  background-color: white;
+  background-color: rgb(244, 234, 234);
   border-bottom: rgb(135, 134, 134) 1px solid;
 }
 

@@ -17,22 +17,35 @@ h1 {
 .flex-container {
   display: flex;
   justify-content: space-evenly;
+  min-height: 100vh;
   align-items: center;
 }
 .about-flex-child {
-  width: 45%;
-  height: 200px;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  line-height: 35px;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
 }
-
 .flex-header {
-  text-align: center;
+  background-size: cover;
+}
+.flex-content h2 {
+  text-decoration: underline;
+  /* text-transform: uppercase; */
+  letter-spacing: 1.2px;
+  margin-bottom: 10px;
+}
+.flex-content {
+  background-color: #3a3b3c;
+  color: rgb(245, 233, 233);
+  padding: 50px;
+  font-size: 1.5em;
 }
 
 img {
-  /* position: absolute; */
-  /* top: 15%; */
-  /* right: 30%; */
-  /* margin: auto; */
   height: 800px;
   position: absolute;
   top: 55%;
@@ -41,7 +54,27 @@ img {
 }
 
 footer {
-  position: relative;
-  bottom: 0px;
-
+  text-align: center;
+  background-color: rgb(244, 234, 234);
 }
+.footer-content {
+  padding: 25px 0px;
+  border-top: rgb(135, 134, 134) 1px solid;
+}
+
+#flex-img-1 {
+  background-image: url('https://res.cloudinary.com/dsxuuory9/image/upload/v1635916867/Projects/computerlabsnyc/three-students-lab_g5jkyj.jpg');
+  background-size: cover;
+}
+#flex-img-2 {
+  background-image: url('https://res.cloudinary.com/dsxuuory9/image/upload/v1635915508/Projects/computerlabsnyc/students-over-tablet_c1cuts.webp');
+  background-size: cover;
+  background-position-x: -50px;
+}
+#flex-img-3 {
+  background-image: url('https://res.cloudinary.com/dsxuuory9/image/upload/v1635915216/Projects/computerlabsnyc/pexels-polina-zimmerman-3747486_dhyb1k.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+
