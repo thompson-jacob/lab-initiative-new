@@ -77,4 +77,35 @@ footer {
   background-position: center;
 }
 
+@media only screen and (max-width: 1000px) {
+  .flex-content {
+    background-color: #3a3b3c;
+    color: rgb(245, 233, 233);
+    padding: 40px;
+    font-size: 1.2em;
+  }
+  .about-flex-child {
+    line-height: 30px;
+  }
+}
 
+@media only screen and (max-width: 800px) {
+  .flex-content {
+    background-color: #3a3b3c;
+    color: rgb(245, 233, 233);
+    padding: 30px;
+    font-size: 1em;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .flex-container {
+    flex-direction: column;
+  }
+  .about-flex-child {
+    width: 100%;
+  }
+  .flex-reverse-container {
+    flex-direction: column-reverse;
+  }
+}
