@@ -37,7 +37,9 @@ body {
   width: 70%;
   margin: auto;
   border-radius: 10px;
-  text-transform: uppercase
+  text-transform: uppercase;
+  /* position: relative; */
+  
 }
 
 
@@ -49,6 +51,7 @@ body {
   font-weight: 300;
   z-index: 1;
   letter-spacing: 1px;
+  height: 75px;
 }
 
 /* HOME PAGE NAV STYLES */
@@ -92,3 +95,12 @@ nav {
   color: cornsilk;
 }
 
+@media (max-width: 767px) {
+  #myVideo {
+      display: none;
+  }
+  body {
+      background: url('poster.jpg');
+      background-size: cover;
+  }
+}
