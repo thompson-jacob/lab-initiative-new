@@ -1,15 +1,18 @@
 body {
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+header {
+  background-size: cover;
+  background-image: url('https://res.cloudinary.com/dsxuuory9/image/upload/v1635915216/Projects/computerlabsnyc/pexels-polina-zimmerman-3747486_dhyb1k.jpg');
+  min-height: 100vh;
+}
+
 h1 {
   text-align: center;
 }
-container-div {
+.container-div {
  position: relative;
- /* width: 100%;
- justify-content: center;
- align-items: center;
- display: flex; */
 }
 .flex-container {
   display: flex;
