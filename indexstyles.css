@@ -23,6 +23,12 @@ body {
   color: #e1dcdc;
   text-align: center;
 }
+.content span {
+  display: inline-block;
+}
+.content span::first-letter {
+  font-size: 1.1em;
+}
 .content-text {
   text-shadow: -2px 0 rgb(52, 52, 52), 0 2px rgb(52, 52, 52), 2px 0 rgb(52, 52, 52), 0 -2px rgb(52, 52, 52);
   font-size: 3em;
@@ -31,6 +37,7 @@ body {
   width: 70%;
   margin: auto;
   border-radius: 10px;
+  text-transform: uppercase
 }
 
 
@@ -68,6 +75,9 @@ nav {
   font-size: 150%;
   padding: 3px 6px;
   border-radius: 3px;
+
+}
+.home-navbar-title {
   border: 1px solid rgb(103, 103, 103);
 }
 
