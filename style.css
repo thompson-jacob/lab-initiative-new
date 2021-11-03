@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+}
+
+main {
+  margin: 16px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  background:maroon;
+  color: palegoldenrod;
+  font-family: tacoma;
+  font-weight: 300;
+}
+
+.navbar__title {
+  margin-right: auto;
+  font-size: 150%;
+  padding: 12px 16px;
+}
+
+.navbar__item {
+  padding: 16px 16px;
+  cursor: pointer;
+  vertical-align: middle;
+  
+}
+
+a:hover, a:link, a:visited {
+ text-decoration: none;
+ color: whitesmoke;
+
+}
