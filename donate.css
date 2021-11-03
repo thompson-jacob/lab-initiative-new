@@ -2,12 +2,27 @@ header {
   background-size: cover;
   background-image: url('https://res.cloudinary.com/dsxuuory9/image/upload/v1635915343/Projects/computerlabsnyc/bridging-the-digital-divide_sntwry.jpg');
   min-height: 100vh;
+  display: flex;
+  text-align: center;
 }
 .donate-header{
   text-align: center;
   color: #F2F4CB;
 }
+#donate-btn {
+  background-color: #3a3b3c;
+  color: rgb(245, 233, 233);
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 2em;
+  text-align: center;
+  height: 100px;
+  width: 200px;
+  letter-spacing: 1px;
+  margin: 350px auto 100px auto;
+}
 
-.donation-flex-container {
-  
+#donate-btn:hover {
+  transform: scale(1.1);
+  transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
 }

@@ -30,7 +30,11 @@ body {
   font-size: 1.1em;
 }
 .content-text {
-  text-shadow: -1.5px 0 rgb(52, 52, 52), 0 1.5px rgb(52, 52, 52), 1.5px 0 rgb(52, 52, 52), 0 -1.5px rgb(52, 52, 52);
+  text-shadow: -1.5
+  px 0 rgb(52, 52, 52), 0 1.5
+  px rgb(52, 52, 52), 1.5
+  px 0 rgb(52, 52, 52), 0 -1.5
+  px rgb(52, 52, 52);
   font-size: 3em;
   background: rgba(0, 0, 0, 0.208);
   padding: 20px;
