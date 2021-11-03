@@ -13,6 +13,7 @@ main {
   color: palegoldenrod;
   font-family: tacoma;
   font-weight: 300;
+  z-index: 1;
 }
 
 .navbar__title {
@@ -31,5 +32,4 @@ main {
 a:hover, a:link, a:visited {
  text-decoration: none;
  color: whitesmoke;
-
 }

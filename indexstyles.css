@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+
+body {
+  margin: 0;
+  color: rgb(24, 24, 20);
+  font-family: 'Mukta', sans-serif;
+  letter-spacing: 1px;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+  position: fixed;
+  /* right: 5%; */
+  bottom: 10%;
+  /* background-color: rgba(255, 249, 249, 0.324); */
+  border-radius: 25px;
+  /* background: rgba(0, 0, 0, 0.317); */
+  color: #fafafa;
+  padding: 20px;
+  left: 25%;
+  /* left: 50%;
+  transform: translate(-50%, 0); */
+}
+.content-text {
+  /* text-align: center; */
+  text-shadow: -1px 0 rgb(52, 52, 52), 0 1px rgb(52, 52, 52), 1px 0 rgb(52, 52, 52), 0 -1px rgb(52, 52, 52);
+  font-size: 2em;
+}
+
+
+.navbar {
+  display: flex;
+  align-items: center;
+  color: rgb(24, 24, 20);
+  font-family: 'Mukta', sans-serif;
+  font-weight: 300;
+  z-index: 1;
+  letter-spacing: 1px;
+}
+
+/* HOME PAGE NAV STYLES */
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar__item {
+  padding: 16px 16px;
+  cursor: pointer;
+  vertical-align: middle;
+}
+.navbar__item a {
+  color: rgb(24, 24, 20);
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.navbar__title {
+  margin-right: auto;
+  margin-left: 10px;
+  font-size: 150%;
+  padding: 3px 6px;
+  border-radius: 3px;
+  border: 1px solid rgb(103, 103, 103);
+}
+
+#donate-nav-item {
+  background-color: rgb(40, 133, 162);
+  border-radius: 3px;
+  padding: 3px 6px;
+  margin-right: 10px;
+  font-size: 1.05em;
+}
+#donate-nav-item a {
+  color: cornsilk;
+}
+
