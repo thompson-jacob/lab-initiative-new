@@ -95,12 +95,24 @@ nav {
   color: cornsilk;
 }
 
-@media (max-width: 767px) {
-  #myVideo {
-      display: none;
+@media only screen and (max-width: 800px) {
+  .content {
+    bottom: 20%;
+    font-size: .9em;
   }
-  body {
-      background: url('poster.jpg');
-      background-size: cover;
+}
+
+@media only screen and (max-width: 600px) {
+  .content {
+    font-size: .8em;
   }
+  /* #myVideo {
+    display: none;
+  }
+  #home-body-static {
+    background-image: url("https://res.cloudinary.com/dsxuuory9/image/upload/v1635923299/Projects/computerlabsnyc/skyline-static_q9xvg9.jpg");
+    background-size: 100vh;
+    background-repeat: no-repeat;
+
+  } */
 }
