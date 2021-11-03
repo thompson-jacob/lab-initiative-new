@@ -77,6 +77,12 @@ footer {
   background-position: center;
 }
 
+@media only screen and (max-width: 1200px) {
+  #flex-content-1 {
+    padding-top: 120px;
+  }
+}
+
 @media only screen and (max-width: 1000px) {
   .flex-content {
     background-color: #3a3b3c;
@@ -93,12 +99,15 @@ footer {
   .flex-content {
     background-color: #3a3b3c;
     color: rgb(245, 233, 233);
-    padding: 30px;
+    padding: 20px;
     font-size: 1em;
   }
 }
 
 @media only screen and (max-width: 600px) {
+  #flex-content-1 {
+    padding-top: 30px;
+  }
   .flex-container {
     flex-direction: column;
   }
